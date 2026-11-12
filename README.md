@@ -33,7 +33,9 @@ Test mode: free, nothing is charged, and Nero never contacts anyone. The trade o
 6. The trade can reply once and give their side, but cannot hit back.
 7. If the job is put right, only the customer can add an update. The original stays visible.
 
-Phone numbers, emails, addresses and swearing are removed from reviews by machine before they are published. The stars always count.
+Phone numbers, emails, addresses, swearing and hate words are removed from reviews by machine, before publishing and again every time a review is shown. The stars always count.
+
+Anyone can report a review that breaks the law with the Report link under it; personal details and abuse are checked by machine on the spot, and legal problems go to a short queue Nero reads every morning. A customer can remove their own name and words from their own link; their stars stay, unnamed, so no business can push them into deleting a rating. Pages: [how reviews work](https://nero-reviews.nerolabs.workers.dev/how-reviews-work), [privacy](https://nero-reviews.nerolabs.workers.dev/privacy).
 
 ## Connect
 
