@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Nero-Engine/nero-reviews",
+  "title": "Nero Reviews: verified job reviews for trades",
+  "description": "Verified job reviews for tradespeople: one-tap star links, spoken score, automatic dispute desk.",
+  "version": "0.2.0",
+  "repository": {
+    "url": "https://github.com/Nero-Engine/nero-reviews-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://nero-reviews.nerolabs.workers.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nero-reviews.nerolabs.workers.dev/mcp"
+    }
+  ]
+}
