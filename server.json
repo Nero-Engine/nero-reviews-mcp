@@ -3,12 +3,12 @@
   "name": "io.github.Nero-Engine/nero-reviews",
   "title": "Nero Reviews: verified job reviews for trades",
   "description": "Verified job reviews for tradespeople: one-tap star links, spoken score, automatic dispute desk.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": {
     "url": "https://github.com/Nero-Engine/nero-reviews-mcp",
     "source": "github"
   },
-  "websiteUrl": "https://nero-reviews.nerolabs.workers.dev",
+  "websiteUrl": "https://nero-reviews.nerolabs.workers.dev/docs",
   "remotes": [
     {
       "type": "streamable-http",

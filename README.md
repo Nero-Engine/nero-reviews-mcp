@@ -6,6 +6,10 @@ After every job the assistant calls `job_done` and gets a one-time link to text 
 
 **Endpoint:** `https://nero-reviews.nerolabs.workers.dev/mcp` (MCP, Streamable HTTP, no sign-in)
 **Sample trade page (made-up business):** https://nero-reviews.nerolabs.workers.dev/t/brightwire-electrical-sample
+**How to connect:** https://nero-reviews.nerolabs.workers.dev/docs
+**Privacy:** https://nero-reviews.nerolabs.workers.dev/privacy
+**Support:** founder@neroengine.com
+**Try it:** the sample key `nrk_sample_brightwire_test_mode_only` works on the made-up business.
 
 Test mode: free, nothing is charged, and Nero never contacts anyone. The trade or their assistant sends the link.
 
@@ -22,6 +26,8 @@ Test mode: free, nothing is charged, and Nero never contacts anyone. The trade o
 | `dispute_review` | The dispute desk. Settles a dispute about a review straight away from fixed rules and returns the verdict, why, and an example reply. |
 | `export_history` | The full record, ready to carry into Nero Work. |
 | `review_rules` | The review law rules this server enforces, in plain words. |
+
+Every tool carries a plain title and the read-only, destructive and open-world hints.
 
 ## Fair by design (UK DMCC Act 2024 and CMA fake review guidance)
 
