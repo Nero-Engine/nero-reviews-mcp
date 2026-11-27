@@ -46,6 +46,7 @@ Anyone can report a review that breaks the law with the Report link under it; pe
 ## Connect
 
 - **Claude Code:** `claude mcp add --transport http nero-reviews https://nero-reviews.nerolabs.workers.dev/mcp`
+- **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/nero-reviews-mcp`
 - **Claude (desktop or web):** Settings, Connectors, Add custom connector, paste the endpoint.
 - **ChatGPT:** Settings, Apps and Connectors, Create (developer mode), paste the endpoint.
 - **Cursor and others:**

@@ -1,0 +1,12 @@
+{
+  "name": "nero-reviews",
+  "version": "0.3.1",
+  "description": "Verified job reviews for tradespeople: one-tap star links, spoken score, automatic dispute desk.",
+  "mcpServers": {
+    "nero-reviews": {
+      "httpUrl": "https://nero-reviews.nerolabs.workers.dev/mcp",
+      "timeout": 30000
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
