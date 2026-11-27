@@ -1,5 +1,7 @@
 # Nero Reviews
 
+[![Nero Reviews MCP connector](https://glama.ai/mcp/connectors/io.github.Nero-Engine/nero-reviews/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Nero-Engine/nero-reviews)
+
 Verified job reviews for tradespeople (electricians, plumbers, builders, any trade), collected by the trade's own AI assistant.
 
 After every job the assistant calls `job_done` and gets a one-time link to text the customer. The customer taps 1 to 5 stars on their phone, in the trade's own colours and logo, and can add a sentence. The trade can ask "what's my score?" and hear a short spoken answer. Every trade gets a public page with their score, level and reviews, newest first.
@@ -46,6 +48,7 @@ Anyone can report a review that breaks the law with the Report link under it; pe
 ## Connect
 
 - **Claude Code:** `claude mcp add --transport http nero-reviews https://nero-reviews.nerolabs.workers.dev/mcp`
+- **Cline:** add `"nero-reviews": { "type": "streamableHttp", "url": "https://nero-reviews.nerolabs.workers.dev/mcp" }` under `mcpServers` in cline_mcp_settings.json (see llms-install.md).
 - **Gemini CLI:** `gemini extensions install https://github.com/Nero-Engine/nero-reviews-mcp`
 - **Claude (desktop or web):** Settings, Connectors, Add custom connector, paste the endpoint.
 - **ChatGPT:** Settings, Apps and Connectors, Create (developer mode), paste the endpoint.
